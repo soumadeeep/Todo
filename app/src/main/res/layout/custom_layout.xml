@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="350dp"
+    android:layout_height="wrap_content"
+    android:paddingLeft="21dp"
+    android:paddingRight="21dp"
+    android:background="#8F8D8D"
+    
+    >
+    <EditText
+        android:id="@+id/update_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Write titel.."
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:background="#fff"
+        android:layout_marginTop="10dp"
+        android:padding="11dp"
+        android:inputType="text"
+        android:autofillHints="" />
+    <EditText
+        android:id="@+id/update_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Write description.."
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:background="#fff"
+        android:layout_marginTop="10dp"
+        android:padding="11dp"
+        android:inputType="text"
+        android:autofillHints="" />
+    <EditText
+        android:id="@+id/update_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Write date.."
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:background="#fff"
+        android:layout_marginTop="10dp"
+        android:padding="11dp"
+        android:inputType="text"
+        tools:ignore="TextFields"
+        android:autofillHints="" />
+    <EditText
+        android:id="@+id/key_value"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Write keyno.."
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:background="#fff"
+        android:layout_marginTop="10dp"
+        android:padding="11dp"
+        android:inputType="text"
+        tools:ignore="TextFields"
+        android:autofillHints="" />
+
+    <Button
+        android:id="@+id/add_button"
+        android:layout_marginTop="20dp"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_gravity="end"
+        android:background="@drawable/background_style_button"
+        android:text="Add"
+
+        />
+
+
+</LinearLayout>

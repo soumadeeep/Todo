@@ -1,0 +1,2 @@
+# ToDo
+Welcome to ToDo, a versatile Todo app designed to streamline your task management process. With ToDo, you can effortlessly add, delete, update, and search tasks to stay organized and on top of your schedule. Easily add tasks with a simple interface, set due dates and reminders, and categorize them into different lists or categories. Delete tasks when they're completed, update task details as needed, and search for specific tasks quickly using powerful search functionality. ToDo is your ultimate tool for boosting productivity and staying organized
